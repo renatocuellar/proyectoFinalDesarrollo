@@ -1,0 +1,21 @@
+@import "./index.css";
+
+.button {
+    background: var(--red);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 35px;
+    padding-inline-end: 35px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover {
+    background: var(--White);
+    color: var(--greyDark);
+}

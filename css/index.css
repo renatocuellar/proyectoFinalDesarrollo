@@ -1,0 +1,56 @@
+@import "./button.css";
+
+:root {
+    --fontTitle: "Rubik", sans-serif;
+    --fontBase: "Poppins", sans-serif;
+    --headline1: bold 95px/153px var(--fontTitle);
+    --headline2: bold 59px/95px var(--fontTitle);
+    --headline3: bold 48px/77px var(--fontTitle);
+    --headline4: bold 34px/55px var(--fontTitle);
+    --headline5: bold 24px/38px var(--fontTitle);
+    --body1: normal 20px/25px var(--fontBase);
+    --body2: normal 16px/22px var(--fontBase);
+    --button: bold 16px/22px var(--fontBase);
+    --dark: #171717;
+    --greyDark: #232323;
+    --grey: #444444;
+    --red: #DA0037;
+    --White: #EDEDED;
+    --green: #00E5A1;
+}
+
+body {
+    background: var(--dark);
+    min-block-size: 100vh;
+}
+
+.wrapper {
+    max-inline-size: 1158px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 80px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+  }
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    color: var(--White);
+    font: var(--body2);
+  }
+
+.menu ul a {
+    outline: none;
+    text-decoration: none;
+    color: var(--White);
+  }
