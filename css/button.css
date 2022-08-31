@@ -9,13 +9,31 @@
     padding-block-start: 10px;
     padding-block-end: 10px;
     border-radius: 10px;
-    text-transform: uppercase;
     border: none;
     text-decoration: none;
     text-align: center;
 }
 
 .button:hover {
+    background: var(--White);
+    color: var(--greyDark);
+}
+
+.button2 {
+    background: none;
+    color: var(--White);
+    font: var(--button);
+    padding-inline-start: 35px;
+    padding-inline-end: 35px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--White);
+    text-decoration: none;
+    text-align: center;
+}
+
+.button2:hover {
     background: var(--White);
     color: var(--greyDark);
 }
