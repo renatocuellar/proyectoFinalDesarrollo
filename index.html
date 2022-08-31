@@ -8,34 +8,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&family=Rubik:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/rc.png">
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-    <div class="wrapper">
+    <!-- El wrapper es un container para mantener el tamaño de la página -->
+    <div class="wrapper"> 
+        <!-- Aquí comienza el header que se replicará en todas las páginas -->
         <header class="header">
             <img src="/assets/logo.png" alt="Logotipo Renato Cuéllar" class="logotipo">
             <nav class="menu">
                 <ul>
-                    <li>
-                        <a href="#">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#">Acerca de mi</a>
-                    </li>
-                    <li>
-                        <a href="#">Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Contáctanos</a>
-                    </li>
-                    <li>
-                        <a href="#" class="button">Servicios</a>
-                    </li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de mi</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#" class="button">Servicios</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="hero">
-
+        <!-- Aquí comienza el hero -->
+        <section class="hero" id="hero">
+            <div class="hero__description">
+                <h3>¡ Hola a todos !</h3>
+                <h1>Soy Renato,</h1>
+                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="hero__description-social">
+                    <a class="button-icon" href="#"><img src="/assets/telefono.png" alt="icono telefono"></a>
+                    <a class="button-icon" href="#"><img src="/assets/email.png" alt="icono email"></a>
+                    <a class="button-icon" href="#"><img src="/assets/instagram.png" alt=""></a>
+                </div>
+                <a href="#" class="button">DESCARGAR CURRÍCULUM</a>
+            </div>
+            <div class="hero__image">
+                <img src="/assets/renato.png" alt="Imagen Renato Cuéllar">
+            </div>
         </section>
     </div>
 </body>

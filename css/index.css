@@ -3,14 +3,14 @@
 :root {
     --fontTitle: "Rubik", sans-serif;
     --fontBase: "Poppins", sans-serif;
-    --headline1: bold 95px/153px var(--fontTitle);
-    --headline2: bold 59px/95px var(--fontTitle);
-    --headline3: bold 48px/77px var(--fontTitle);
-    --headline4: bold 34px/55px var(--fontTitle);
-    --headline5: bold 24px/38px var(--fontTitle);
-    --body1: normal 20px/25px var(--fontBase);
-    --body2: normal 16px/22px var(--fontBase);
-    --button: bold 16px/22px var(--fontBase);
+    --headline1: bold 4rem var(--fontTitle);
+    --headline2: bold 3rem var(--fontTitle);
+    --headline3: bold 1.5rem var(--fontTitle);
+    --headline4: bold 1.2rem var(--fontTitle);
+    --headline5: bold 1rem var(--fontTitle);
+    --body1: normal 1.5rem var(--fontBase);
+    --body2: normal 1.2rem var(--fontBase);
+    --button: bold 1rem var(--fontBase);
     --dark: #171717;
     --greyDark: #232323;
     --grey: #444444;
@@ -22,6 +22,42 @@
 body {
     background: var(--dark);
     min-block-size: 100vh;
+}
+
+h1 {
+    font: var(--headline1);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h2 {
+    font: var(--headline2);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h3 {
+    font: var(--headline3);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h4 {
+    font: var(--headline4);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h5 {
+    font: var(--headline5);
+    color: var(--White);
+    line-height: 1rem;
+}
+
+p {
+    font: var(--body2);
+    color: var(--White);
+    line-height: 1.4rem;
 }
 
 .wrapper {
@@ -53,4 +89,19 @@ body {
     outline: none;
     text-decoration: none;
     color: var(--White);
+  }
+
+  .hero {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  .hero__description-social {
+    margin-bottom: 2rem;
+  }
+
+  .hero__image {
+    max-width: ;
   }

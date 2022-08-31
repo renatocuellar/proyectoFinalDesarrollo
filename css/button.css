@@ -2,7 +2,7 @@
 
 .button {
     background: var(--red);
-    color: var(--white);
+    color: var(--White);
     font: var(--button);
     padding-inline-start: 35px;
     padding-inline-end: 35px;
