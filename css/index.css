@@ -1,6 +1,7 @@
 @import "./button.css";
 @import "./header.css";
 @import "./footer.css";
+@import "./form.css";
 
 :root {
     --fontTitle: "Rubik", sans-serif;
