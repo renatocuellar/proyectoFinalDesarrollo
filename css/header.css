@@ -22,4 +22,11 @@
     outline: none;
     text-decoration: none;
     color: var(--White);
+  } 
+
+@media screen and (max-width: 900px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
   }
+}

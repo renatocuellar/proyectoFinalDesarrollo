@@ -1,0 +1,24 @@
+{
+  "name": "proyectoFinalDesarrollo",
+  "version": "1.0.0",
+  "description": "Este en la pre-entrega No. 1 del curso de desarrollo web de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatocuellar/proyectoFinalDesarrollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatocuellar/proyectoFinalDesarrollo/issues"
+  },
+  "homepage": "https://github.com/renatocuellar/proyectoFinalDesarrollo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
