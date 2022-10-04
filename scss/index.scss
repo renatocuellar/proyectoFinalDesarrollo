@@ -1,0 +1,126 @@
+@import "./button.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./form.css";
+
+:root {
+    --fontTitle: "Rubik", sans-serif;
+    --fontBase: "Poppins", sans-serif;
+    --headline1: bold 4rem var(--fontTitle);
+    --headline2: bold 3rem var(--fontTitle);
+    --headline3: bold 1.5rem var(--fontTitle);
+    --headline4: bold 1.2rem var(--fontTitle);
+    --headline5: bold 1rem var(--fontTitle);
+    --body1: normal 1.8rem var(--fontBase);
+    --body2: normal 1.3rem var(--fontBase);
+    --button: bold 1rem var(--fontBase);
+    --dark: #171717;
+    --greyDark: #232323;
+    --grey: #444444;
+    --red: #DA0037;
+    --White: #EDEDED;
+    --green: #00E5A1;
+}
+
+body {
+    background: var(--dark);
+    min-block-size: 100vh;
+}
+
+h1 {
+    font: var(--headline1);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h2 {
+    font: var(--headline2);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h3 {
+    font: var(--headline3);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h4 {
+    font: var(--headline4);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+h5 {
+    font: var(--headline5);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+p {
+    font: var(--body2);
+    color: var(--White);
+    line-height: 1.4rem;
+}
+
+.wrapper {
+    max-inline-size: 1158px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+}
+
+.hero {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+.hero__description-social {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2rem;
+  }
+
+.justify {
+    margin-top: 2.5rem;
+    text-align: center;
+ }
+
+.justify__paragraph {
+    font: var(--body1);
+    color: var(--White);
+    line-height: 2.2rem;
+ }
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    gap: 3rem;
+ }
+
+.portfolio__description p {
+    margin-bottom: 50px;
+    line-height: 1.6rem;
+    text-align: justify;
+ }
+
+.portfolio__description-buttons {
+    display: flex;
+    gap: 20px;
+ }
+
+.comments {
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 60px 40px;
+ }
