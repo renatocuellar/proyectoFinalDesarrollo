@@ -3,16 +3,43 @@
 .footer {
     text-align: center;
     margin-top: 3rem;
- }
 
- .footer__divider {
-    background-color: var(--red);
-    padding-top: 20px;
-    padding-bottom: 20px;
- }
-
- .footer img {
+   .img {
     margin-top: 4rem;
     margin-bottom: 2rem;
     width: 100px;
+
+    &__divider {
+      background-color: var(--red);
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .footer {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-block-start: 20px;
+     padding-block-start: 20px;
+
+     &-logo {
+      display: block;
+    }
+   }
+ 
+   
+ 
+   .footer .social {
+     order: 3;
+   }
  }
+ 
+ @media screen and (min-width: 1024px) {
+   .footer-copyright {
+     display: flex;
+     gap: 8px;
+   }
+ }
+

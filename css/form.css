@@ -1,0 +1,37 @@
+@import url(./index.css);
+.contactForm__fieldset {
+  color: var(--White);
+  font: var(--body2);
+  border: 3px solid var(--White);
+  border-radius: 20px;
+  padding: 40px 40px; }
+
+.contactForm__fieldset-conjunto input {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 0 10px; }
+
+.contactForm__fieldset-conjunto {
+  align-items: center; }
+
+.contactForm__fieldset-superior {
+  display: flex;
+  gap: 50px;
+  justify-content: center; }
+
+.contactForm__fieldset-inferior {
+  display: flex;
+  gap: 50px;
+  justify-content: center; }
+
+.contactForm__fieldset-submit {
+  display: flex;
+  justify-content: center; }
+
+.contactForm__fieldset-submit .button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 400px; }

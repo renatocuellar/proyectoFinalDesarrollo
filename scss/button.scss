@@ -13,12 +13,14 @@
     border: none;
     text-decoration: none;
     text-align: center;
+
+    &:hover {
+        background: var(--White);
+        color: var(--greyDark);
+    }
 }
 
-.button:hover {
-    background: var(--White);
-    color: var(--greyDark);
-}
+
 
 .button2 {
     background: none;
@@ -32,9 +34,10 @@
     border: 2px solid var(--White);
     text-decoration: none;
     text-align: center;
+
+    &:hover {
+        background: var(--White);
+        color: var(--greyDark);
+    }
 }
 
-.button2:hover {
-    background: var(--White);
-    color: var(--greyDark);
-}
